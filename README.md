@@ -28,3 +28,6 @@
 	
 ###开源协议
 [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) 
+
+###Remark
+![](https://raw.githubusercontent.com/mogutt/TTiOSClient/develop/pic/we-need-you.png)
