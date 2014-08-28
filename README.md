@@ -7,10 +7,15 @@
 	IM内部沟通工具。
 
 ###系统环境
-	服务器端: Linux
-	客户端支持: Windows，Mac, iOS, Android
+	服务端平台: Linux
+	客户端平台: Windows，Mac, iOS, Android
 
-###子系统介绍
+###子系统分类
+	各个子系统的详细说明请参考子系统的README文档
+	
+	-TTPhpServer
+	TT的Web后台管理服务器
+	
 	-TTCppServer
 	TT的服务器，包括登陆分配，长连接接入，消息路由，文件传输, 
 	文件存储等功能的支持	
@@ -19,19 +24,19 @@
 	TT的服务器，只要是作为TT服务器操作MySQL和Redis的代理服务器
 	
 	-TTWinClient
-	Window客户端[界面截图]
+	Window客户端
 	
 	-TTMacClient
-	Mac系统客户端[界面截图]
+	Mac系统客户端
 	
 	-TTIOSClient
-	iOS客户端[界面截图]
+	iOS客户端
 	
 	-TTAndroidClient
-	Android客户端[界面截图]
+	Android客户端
 	
 ###编译安装
-	详见INSTALL文件
+	详见各自子系统的INSTALL文件
 
 ###开发流程
 
@@ -49,12 +54,21 @@
 
 贡献者流程
 
-- 贡献者是指非TeamTalk项目组成员的对开源项目贡献代码的开发人员
+- 贡献者是指非TeamTalk项目组成员，热爱开源且希望为开源项目贡献代码的开发人员
 
-- 贡献者需要先在github上Fork一个项目，然后在Fork的项目上提交代码，
+- 贡献者可以在github上Fork一个子项目，然后在Fork的项目上提交代码，
 再通过Pull Request把修改通知给项目开发者，由开发者code review后，
 决定是否merge进入master分支， 具体可参考: [github协作流程](http://www.worldhello.net/gotgithub/04-work-with-others/010-fork-and-pull.html)
-		
+
+###版本迭代流程
+- 版本迭代周期暂定为3个月
+- 开发者和贡献者可以把想要实现的feature通过github的wiki功能提交上来
+- 开始迭代前讨论本期版本要实现哪些feature，然后把要在本次迭代实现的featue列表写入版本的TODO feature list列表
+- 制定大概的排期
+- 开发，内部测试
+- alpha版本发布，公测
+- 把develop分支代码merge到master分支，stable版本发布
+
 ###开源协议
 [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) 
 
