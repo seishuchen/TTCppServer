@@ -21,7 +21,7 @@
 	文件存储等功能的支持	
 	
 	-TTJavaServer
-	TT的服务器，只要是作为TT服务器操作MySQL和Redis的代理服务器
+	TT的服务器，主要是作为TT服务器操作MySQL和Redis的代理服务器
 	
 	-TTWinClient
 	Window客户端
